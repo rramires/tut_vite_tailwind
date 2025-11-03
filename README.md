@@ -1,16 +1,16 @@
-# Tutorial Vite + Tailwind CSS
+# Tutorial Tailwind CSS
 
 Tutorial to configure:  
-Vite + Tailwind CSS
+Tailwind CSS + Automatic Class Sorting
 
 - IMPORTANTE !
 
     Esse tutorial é uma continuação da configuração do front-end usando React com TypeScript usando o Vite.  
      Antes deve ser concluído esse outro tutorial, para instalando e configurando o Vite, Prettier, etc:  
-     [Tutorial Vite + Code Format](https://github.com/rramires/tut_vite_code-format/blob/master/README.md)
+     [Tutorial React + Code Format](https://github.com/rramires/fe1_react_code-format/blob/master/README.md)
 
     Seguido do tutorial para instalação do React Router DOM:  
-     [Tutorial Vite + React Router DOM](https://github.com/rramires/tut_vite_react_router_dom/blob/master/README.md)
+     [Tutorial React + React Router DOM](https://github.com/rramires/fe2_react-router-dom/blob/master/README.md)
 
 ---
 
@@ -147,4 +147,4 @@ pnpm dev
 
 - Lembrando que para testar essas páginas de erro devemos:  
   Usar uma rota inexistente **http://localhost:3001/other** para **e404.tsx**  
-  Provocar um erro em alguma página **throw new Error('Simulação de erro no Dashboard')**, por exemplo, para **error.tsx**.
+  Provocar um erro em alguma página: **throw new Error('Simulação de erro no Dashboard')**, por exemplo, para **error.tsx**.
